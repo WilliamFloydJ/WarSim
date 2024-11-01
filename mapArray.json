@@ -1,0 +1,46 @@
+[
+  [
+    ["_", "X", "_", "_", "_", "_"],
+    ["O", "_", "X", "_", "_", "_"],
+    ["X", "_", "_", "X", "_", "X"],
+    ["_", "_", "O", "_", "O", "_"],
+    ["_", "_", "O", "_", "_", "_"],
+    ["_", "_", "X", "_", "O", "_"],
+    ["O", "X", "_", "_", "_", "_"],
+    ["_", "_", "_", "_", "_", "X"],
+    ["_", "X", "X", "O", "_", "_"]
+  ],
+  [
+    ["_", "_", "_", "_", "_", "_"],
+    ["_", "_", "_", "_", "_", "_"],
+    ["_", "_", "_", "_", "_", "_"],
+    ["_", "_", "_", "_", "_", "_"],
+    ["_", "_", "_", "_", "_", "_"],
+    ["_", "_", "_", "_", "_", "_"],
+    ["_", "_", "_", "_", "_", "_"],
+    ["_", "_", "_", "_", "_", "_"],
+    ["_", "_", "_", "_", "_", "_"]
+  ],
+  [
+    { "name": 0, "position": { "x": 2, "y": 8 }, "side": true },
+    { "name": 1, "position": { "x": 0, "y": 1 }, "side": true },
+    { "name": 2, "position": { "x": 2, "y": 3 }, "side": true },
+    { "name": 3, "position": { "x": 3, "y": 8 }, "side": true },
+    { "name": 4, "position": { "x": 0, "y": 6 }, "side": true },
+    { "name": 5, "position": { "x": 4, "y": 3 }, "side": true },
+    { "name": 6, "position": { "x": 4, "y": 5 }, "side": true },
+    { "name": 7, "position": { "x": 2, "y": 1 }, "side": true },
+    { "name": 8, "position": { "x": 4, "y": 3 }, "side": true },
+    { "name": 9, "position": { "x": 2, "y": 4 }, "side": true },
+    { "name": 0, "position": { "x": 3, "y": 2 }, "side": false },
+    { "name": 1, "position": { "x": 1, "y": 6 }, "side": false },
+    { "name": 2, "position": { "x": 1, "y": 0 }, "side": false },
+    { "name": 3, "position": { "x": 5, "y": 2 }, "side": false },
+    { "name": 4, "position": { "x": 5, "y": 7 }, "side": false },
+    { "name": 5, "position": { "x": 2, "y": 5 }, "side": false },
+    { "name": 6, "position": { "x": 1, "y": 8 }, "side": false },
+    { "name": 7, "position": { "x": 2, "y": 1 }, "side": false },
+    { "name": 8, "position": { "x": 2, "y": 8 }, "side": false },
+    { "name": 9, "position": { "x": 0, "y": 2 }, "side": false }
+  ]
+]
