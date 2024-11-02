@@ -1,7 +1,6 @@
-const fs = require("fs");
 const utils = require("./utilities.js");
-const prettier = require("prettier");
-const { Soldier, Vector2 } = require("./classes.js");
+const names = require("./first-names.json");
+const { Soldier, Vector2, Gun } = require("./classes.js");
 
 const mapArr = [];
 const areaLength = 6;
@@ -17,9 +16,21 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+const guns = [];
+
+const rifle = new Gun(5, 4, 1, 0.5);
+
 const soldiers = [];
 
-function createSoldier(name, side) {
+function createSoldier(side) {
+  const name = names[Math.floor(Math.random() * names.length)];
+  const symbolAr = side ? utils.letters : utils.numbers;
+  let symbol = symbolAr[Math.floor(Math.random() * symbolAr.length)];
+
+  while (soldiers.some((sold) => sold.symbol === symbol)) {
+    symbol = symbolAr[Math.floor(Math.random() * symbolAr.length)];
+  }
+
   let position = new Vector2(
     getRandomInt(areaLength),
     getRandomInt(areaHeight)
@@ -27,15 +38,15 @@ function createSoldier(name, side) {
   while (soldiers.some((sold) => sold.position === position)) {
     position = new Vector2(getRandomInt(areaLength), getRandomInt(areaHeight));
   }
-  const newSolder = new Soldier(name, position, side);
+  const newSolder = new Soldier(name, position, side, symbol);
   soldiers.push(newSolder);
 }
 
 for (let i = 0; i < 10; i++) {
-  createSoldier(i, true);
+  createSoldier(true);
 }
 for (let i = 0; i < 10; i++) {
-  createSoldier(i, false);
+  createSoldier(false);
 }
 
 const newMap = structuredClone(mapArr);

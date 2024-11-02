@@ -1,9 +1,19 @@
 module.exports = {
   Soldier: class Soldier {
-    constructor(name, position, side) {
+    constructor(name, position, side, symbol) {
       this.name = name;
       this.position = position;
       this.side = side;
+      this.symbol = symbol;
+      this.health = 100;
+    }
+  },
+  Gun: class Gun {
+    constructor(power, distance, speed, accuracy) {
+      this.power = power;
+      this.distance = distance;
+      this.speed = speed;
+      this.accuracy = accuracy;
     }
   },
   Vector2: class Vector2 {

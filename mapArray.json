@@ -1,14 +1,14 @@
 [
   [
-    ["_", "X", "_", "_", "_", "_"],
-    ["O", "_", "X", "_", "_", "_"],
-    ["X", "_", "_", "X", "_", "X"],
-    ["_", "_", "O", "_", "O", "_"],
-    ["_", "_", "O", "_", "_", "_"],
-    ["_", "_", "X", "_", "O", "_"],
-    ["O", "X", "_", "_", "_", "_"],
-    ["_", "_", "_", "_", "_", "X"],
-    ["_", "X", "X", "O", "_", "_"]
+    ["_", "_", "_", "_", "/", "_"],
+    ["_", "_", "S", "_", "#", "_"],
+    ["_", "`", "M", "_", "_", "1"],
+    ["_", "_", "_", "_", "_", ";"],
+    ["_", "_", "_", "_", "_", "_"],
+    ["_", "@", "_", "_", "J", "_"],
+    ["^", "!", "_", "_", "_", "6"],
+    ["_", "C", "_", "_", "Q", "_"],
+    ["N", "_", "_", "_", "Z", "V"]
   ],
   [
     ["_", "_", "_", "_", "_", "_"],
@@ -22,25 +22,145 @@
     ["_", "_", "_", "_", "_", "_"]
   ],
   [
-    { "name": 0, "position": { "x": 2, "y": 8 }, "side": true },
-    { "name": 1, "position": { "x": 0, "y": 1 }, "side": true },
-    { "name": 2, "position": { "x": 2, "y": 3 }, "side": true },
-    { "name": 3, "position": { "x": 3, "y": 8 }, "side": true },
-    { "name": 4, "position": { "x": 0, "y": 6 }, "side": true },
-    { "name": 5, "position": { "x": 4, "y": 3 }, "side": true },
-    { "name": 6, "position": { "x": 4, "y": 5 }, "side": true },
-    { "name": 7, "position": { "x": 2, "y": 1 }, "side": true },
-    { "name": 8, "position": { "x": 4, "y": 3 }, "side": true },
-    { "name": 9, "position": { "x": 2, "y": 4 }, "side": true },
-    { "name": 0, "position": { "x": 3, "y": 2 }, "side": false },
-    { "name": 1, "position": { "x": 1, "y": 6 }, "side": false },
-    { "name": 2, "position": { "x": 1, "y": 0 }, "side": false },
-    { "name": 3, "position": { "x": 5, "y": 2 }, "side": false },
-    { "name": 4, "position": { "x": 5, "y": 7 }, "side": false },
-    { "name": 5, "position": { "x": 2, "y": 5 }, "side": false },
-    { "name": 6, "position": { "x": 1, "y": 8 }, "side": false },
-    { "name": 7, "position": { "x": 2, "y": 1 }, "side": false },
-    { "name": 8, "position": { "x": 2, "y": 8 }, "side": false },
-    { "name": 9, "position": { "x": 0, "y": 2 }, "side": false }
+    {
+      "name": "Emmie",
+      "position": { "x": 4, "y": 0 },
+      "side": true,
+      "symbol": "K",
+      "health": 100
+    },
+    {
+      "name": "Janetta",
+      "position": { "x": 1, "y": 7 },
+      "side": true,
+      "symbol": "C",
+      "health": 100
+    },
+    {
+      "name": "Elvina",
+      "position": { "x": 5, "y": 8 },
+      "side": true,
+      "symbol": "V",
+      "health": 100
+    },
+    {
+      "name": "Zaneta",
+      "position": { "x": 4, "y": 5 },
+      "side": true,
+      "symbol": "J",
+      "health": 100
+    },
+    {
+      "name": "Corella",
+      "position": { "x": 4, "y": 8 },
+      "side": true,
+      "symbol": "Z",
+      "health": 100
+    },
+    {
+      "name": "Amelina",
+      "position": { "x": 1, "y": 5 },
+      "side": true,
+      "symbol": "R",
+      "health": 100
+    },
+    {
+      "name": "Elyssa",
+      "position": { "x": 0, "y": 8 },
+      "side": true,
+      "symbol": "N",
+      "health": 100
+    },
+    {
+      "name": "Rosamond",
+      "position": { "x": 2, "y": 1 },
+      "side": true,
+      "symbol": "S",
+      "health": 100
+    },
+    {
+      "name": "Tasia",
+      "position": { "x": 4, "y": 7 },
+      "side": true,
+      "symbol": "Q",
+      "health": 100
+    },
+    {
+      "name": "Liza",
+      "position": { "x": 2, "y": 2 },
+      "side": true,
+      "symbol": "M",
+      "health": 100
+    },
+    {
+      "name": "Karine",
+      "position": { "x": 0, "y": 6 },
+      "side": false,
+      "symbol": "^",
+      "health": 100
+    },
+    {
+      "name": "Kirsteni",
+      "position": { "x": 1, "y": 6 },
+      "side": false,
+      "symbol": "!",
+      "health": 100
+    },
+    {
+      "name": "Bryna",
+      "position": { "x": 4, "y": 1 },
+      "side": false,
+      "symbol": "<",
+      "health": 100
+    },
+    {
+      "name": "Danila",
+      "position": { "x": 1, "y": 2 },
+      "side": false,
+      "symbol": "`",
+      "health": 100
+    },
+    {
+      "name": "Mercedes",
+      "position": { "x": 4, "y": 0 },
+      "side": false,
+      "symbol": "/",
+      "health": 100
+    },
+    {
+      "name": "Marleen",
+      "position": { "x": 5, "y": 2 },
+      "side": false,
+      "symbol": "1",
+      "health": 100
+    },
+    {
+      "name": "Vera",
+      "position": { "x": 5, "y": 3 },
+      "side": false,
+      "symbol": ";",
+      "health": 100
+    },
+    {
+      "name": "Aline",
+      "position": { "x": 4, "y": 1 },
+      "side": false,
+      "symbol": "#",
+      "health": 100
+    },
+    {
+      "name": "Corabel",
+      "position": { "x": 1, "y": 5 },
+      "side": false,
+      "symbol": "@",
+      "health": 100
+    },
+    {
+      "name": "Claudetta",
+      "position": { "x": 5, "y": 6 },
+      "side": false,
+      "symbol": "6",
+      "health": 100
+    }
   ]
 ]
