@@ -5,6 +5,8 @@ module.exports = {
       this.position = position;
       this.side = side;
       this.symbol = symbol;
+      this.history = "";
+      this.newHistory = "";
       this.health = 100;
     }
   },

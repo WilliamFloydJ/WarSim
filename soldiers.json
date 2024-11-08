@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Nicola",
+    "position": { "x": 4, "y": 2 },
+    "side": true,
+    "symbol": "B",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Herminia",
+    "position": { "x": 2, "y": 2 },
+    "side": true,
+    "symbol": "F",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Nessy",
+    "position": { "x": 5, "y": 3 },
+    "side": true,
+    "symbol": "Y",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Rosalind",
+    "position": { "x": 2, "y": 3 },
+    "side": true,
+    "symbol": "V",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Merle",
+    "position": { "x": 5, "y": 6 },
+    "side": true,
+    "symbol": "Z",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Maegan",
+    "position": { "x": 4, "y": 4 },
+    "side": true,
+    "symbol": "D",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Merilyn",
+    "position": { "x": 5, "y": 7 },
+    "side": true,
+    "symbol": "G",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Sula",
+    "position": { "x": 4, "y": 0 },
+    "side": true,
+    "symbol": "H",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Arabel",
+    "position": { "x": 0, "y": 6 },
+    "side": true,
+    "symbol": "A",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Corina",
+    "position": { "x": 2, "y": 2 },
+    "side": true,
+    "symbol": "R",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Raynell",
+    "position": { "x": 4, "y": 7 },
+    "side": false,
+    "symbol": "*",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Donielle",
+    "position": { "x": 3, "y": 4 },
+    "side": false,
+    "symbol": "8",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Aurea",
+    "position": { "x": 2, "y": 0 },
+    "side": false,
+    "symbol": "$",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Shoshana",
+    "position": { "x": 2, "y": 0 },
+    "side": false,
+    "symbol": "+",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Maxine",
+    "position": { "x": 2, "y": 2 },
+    "side": false,
+    "symbol": "7",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Feliza",
+    "position": { "x": 4, "y": 7 },
+    "side": false,
+    "symbol": "6",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Iona",
+    "position": { "x": 4, "y": 1 },
+    "side": false,
+    "symbol": "9",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Charis",
+    "position": { "x": 2, "y": 5 },
+    "side": false,
+    "symbol": "^",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Anna-Diane",
+    "position": { "x": 1, "y": 8 },
+    "side": false,
+    "symbol": "~",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  },
+  {
+    "name": "Orly",
+    "position": { "x": 5, "y": 3 },
+    "side": false,
+    "symbol": "%",
+    "history": "   ",
+    "newHistory": "    ",
+    "health": 100
+  }
+]
