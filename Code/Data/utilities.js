@@ -17,27 +17,25 @@ function mapArray(Arr) {
   });
 }
 
-function exportJson(newMap, mapArr, soldiers, time) {
+function exportJson(newMap, mapArr, soldiers) {
   soldiers.forEach((sol) => {
     const { x, y } = sol.position;
     newMap[y][x] = sol.symbol;
   });
 
-  const maps = [newMap, mapArr, time];
+  const maps = [newMap, mapArr];
 
   mapArray(newMap);
 
-  const prettySoldier = prettier
+  prettier
     .format(JSON.stringify(soldiers), { parser: "json" })
     .then((string) => {
-      fs.writeFileSync("soldiers.json", string);
+      fs.writeFileSync("./Code/soldiers.json", string);
     });
 
-  const prettyMap = prettier
-    .format(JSON.stringify(maps), { parser: "json" })
-    .then((string) => {
-      fs.writeFileSync("mapArray.json", string);
-    });
+  prettier.format(JSON.stringify(maps), { parser: "json" }).then((string) => {
+    fs.writeFileSync("./Code/mapArray.json", string);
+  });
 }
 
 module.exports = {

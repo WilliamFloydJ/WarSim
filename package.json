@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"node main.js\" \"nodemon AI.js\"",
-    "ai": "nodemon AI.js",
-    "main": "node main.js",
+    "start": "concurrently \"node ./Code/main.js\" \"nodemon ./Code/AI.js\"",
+    "ai": "nodemon ./Code/AI.js",
+    "main": "node ./Code/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

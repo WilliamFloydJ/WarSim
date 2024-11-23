@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Arleyne",
+    "position": { "x": 0, "y": 2 },
+    "side": true,
+    "symbol": "D",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Sue",
+    "position": { "x": 2, "y": 1 },
+    "side": true,
+    "symbol": "H",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Denys",
+    "position": { "x": 3, "y": 4 },
+    "side": true,
+    "symbol": "N",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Bibbie",
+    "position": { "x": 5, "y": 0 },
+    "side": true,
+    "symbol": "P",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Liliane",
+    "position": { "x": 4, "y": 8 },
+    "side": true,
+    "symbol": "L",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Donia",
+    "position": { "x": 0, "y": 6 },
+    "side": true,
+    "symbol": "Q",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Marianne",
+    "position": { "x": 3, "y": 6 },
+    "side": true,
+    "symbol": "X",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Channa",
+    "position": { "x": 5, "y": 2 },
+    "side": true,
+    "symbol": "E",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Maridel",
+    "position": { "x": 4, "y": 6 },
+    "side": true,
+    "symbol": "Z",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Julietta",
+    "position": { "x": 4, "y": 2 },
+    "side": true,
+    "symbol": "K",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Jandy",
+    "position": { "x": 2, "y": 6 },
+    "side": false,
+    "symbol": "2",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Rosaline",
+    "position": { "x": 5, "y": 6 },
+    "side": false,
+    "symbol": "&",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Mirelle",
+    "position": { "x": 1, "y": 2 },
+    "side": false,
+    "symbol": ">",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Maribeth",
+    "position": { "x": 4, "y": 3 },
+    "side": false,
+    "symbol": "3",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Lori",
+    "position": { "x": 4, "y": 1 },
+    "side": false,
+    "symbol": "{",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Carlene",
+    "position": { "x": 1, "y": 2 },
+    "side": false,
+    "symbol": "8",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Catie",
+    "position": { "x": 4, "y": 4 },
+    "side": false,
+    "symbol": "7",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Nanice",
+    "position": { "x": 0, "y": 1 },
+    "side": false,
+    "symbol": "%",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Catie",
+    "position": { "x": 2, "y": 5 },
+    "side": false,
+    "symbol": "~",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  },
+  {
+    "name": "Jobey",
+    "position": { "x": 0, "y": 3 },
+    "side": false,
+    "symbol": "$",
+    "history": "",
+    "newHistory": "",
+    "health": 100
+  }
+]

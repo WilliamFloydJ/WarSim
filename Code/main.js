@@ -1,6 +1,6 @@
-const utils = require("./utilities.js");
-const names = require("./first-names.json");
-const { Soldier, Vector2, Gun } = require("./classes.js");
+const utils = require("./Data/utilities.js");
+const names = require("./Data/first-names.json");
+const { Soldier, Vector2, Gun } = require("./Data/classes.js");
 
 const mapArr = [];
 const areaLength = 6;
